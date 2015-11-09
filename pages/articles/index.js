@@ -28,10 +28,8 @@ router.get('/articles/:id', function(req, res, next) {
 	res.render('basetemplate', {
 		title: 'Demo - Events',
 		context: JSON.stringify(context),
-		bundle: '/js/events.bundle.js',
-		main: main,
-		header: '',
-		footer: ''
+		bundle: '/js/articles.bundle.js',
+		main: main
 	});
 });
 

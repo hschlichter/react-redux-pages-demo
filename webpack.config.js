@@ -37,13 +37,13 @@ module.exports = [{
 		]
 	},
 	plugins: [
-		//new webpack.optimize.UglifyJsPlugin({
-		//	output: {
-		//		comments: false
-		//	},
-		//	sourceMap: true,
-		//	mangle: false
-		//}),
+		new webpack.optimize.UglifyJsPlugin({
+			output: {
+				comments: false
+			},
+			sourceMap: true,
+			mangle: false
+		}),
 		new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js')
 	],
 	resolve: {

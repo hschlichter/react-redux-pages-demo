@@ -29,9 +29,7 @@ router.get('/', function(req, res, next) {
 		title: 'Demo - Index',
 		context: JSON.stringify(context),
 		bundle: '/js/index.bundle.js',
-		main: main,
-		header: '',
-		footer: ''
+		main: main
 	});
 });
 
