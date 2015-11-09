@@ -1,0 +1,38 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-u-spacing-enable-margins: 				true;
+$bc-u-spacing-enable-margins-tiny: 			true;
+$bc-u-spacing-enable-margins-small: 		true;
+$bc-u-spacing-enable-margins-large: 		true;
+$bc-u-spacing-enable-margins-huge: 			true;
+$bc-u-spacing-enable-margins-remove: 		true;
+$bc-u-spacing-enable-paddings: 				true;
+$bc-u-spacing-enable-paddings-tiny: 		true;
+$bc-u-spacing-enable-paddings-small: 		true;
+$bc-u-spacing-enable-paddings-large: 		true;
+$bc-u-spacing-enable-paddings-huge: 		true;
+$bc-u-spacing-enable-paddings-remove: 		true;
+$bc-u-spacing-enable-responsive-classes: 	true;
+
+// Spacing
+
+$bc-u-spacing-spacing-unit: 				$bc-s-spacing-spacing-unit;
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-utilities-spacing/index";

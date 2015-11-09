@@ -1,0 +1,33 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-u-type-enable-font-size-tiny: 				true;
+$bc-u-type-enable-font-size-small: 				true;
+$bc-u-type-enable-font-size-large: 				true;
+$bc-u-type-enable-font-size-huge: 				true;
+$bc-u-type-enable-truncate: 					true;
+$bc-u-type-enable-font-weight: 					true;
+$bc-u-type-enable-text-transform: 				true;
+$bc-u-type-enable-text-decoration: 				true;
+$bc-u-type-enable-horizontally-aligning-text: 	true;
+$bc-u-type-enable-vertical-alignment: 			true;
+$bc-u-type-enable-responsive-classes: 			true;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-utilities-type/index";

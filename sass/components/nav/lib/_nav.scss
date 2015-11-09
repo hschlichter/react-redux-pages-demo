@@ -1,0 +1,98 @@
+// =============================================================================
+// NAV
+// =============================================================================
+
+
+
+
+
+// VARIABLES
+// =============================================================================
+
+// Bordered
+
+$bc-c-nav-link-color-border-bordered: 				$bc-s-colors-palette-2-ui;
+
+// Dark
+
+$bc-c-nav-color-background-dark: 					$bc-s-colors-palette-1-dark;
+$bc-c-nav-link-color-background-dark: 				$bc-s-colors-palette-1-dark;
+$bc-c-nav-link-color-background-active-dark: 		$bc-s-colors-palette-2-dark;
+$bc-c-nav-link-color-text-dark: 					$bc-s-colors-palette-3-dark;
+$bc-c-nav-link-color-text-active-dark: 				$bc-s-colors-palette-4-dark;
+
+// Primary
+
+$bc-c-nav-color-background-primary: 				$bc-s-colors-palette-1-primary;
+$bc-c-nav-link-color-background-primary: 			$bc-s-colors-palette-1-primary;
+$bc-c-nav-link-color-background-active-primary: 	$bc-s-colors-palette-2-primary;
+$bc-c-nav-link-color-text-primary: 					$bc-s-colors-palette-3-primary;
+$bc-c-nav-link-color-text-active-primary: 			$bc-s-colors-palette-4-primary;
+
+
+
+
+
+// MODIFIERS
+// =============================================================================
+
+/**
+ * Bordered Nav
+ *
+ * Adds border between nav links.
+ */
+
+.c-nav--bordered {
+
+	.c-nav__link {
+		border-bottom: 1px solid $bc-c-nav-link-color-border-bordered;
+	}
+
+	> .c-nav__link:last-child,
+	:last-child > .c-nav__link:only-child {
+		border: 0;
+	}
+
+}
+
+/**
+ * Dark Nav
+ */
+
+.c-nav--dark {
+	background-color: $bc-c-nav-color-background-dark;
+
+	> .c-nav__link {
+		background-color: $bc-c-nav-link-color-background-dark;
+		color: $bc-c-nav-link-color-text-dark;
+	}
+
+	> .c-nav__link:hover,
+	> .c-nav__link.is-active,
+	.is-active > .c-nav__link {
+		background-color: $bc-c-nav-link-color-background-active-dark;
+		color: $bc-c-nav-link-color-text-active-dark;
+	}
+
+}
+
+/**
+ * Primary Nav
+ */
+
+.c-nav--primary {
+	background-color: $bc-c-nav-color-background-primary;
+
+	> .c-nav__link {
+		background-color: $bc-c-nav-link-color-background-primary;
+		color: $bc-c-nav-link-color-text-primary;
+	}
+
+	> .c-nav__link:hover,
+	> .c-nav__link.is-active,
+	.is-active > .c-nav__link {
+		background-color: $bc-c-nav-link-color-background-active-primary;
+		color: $bc-c-nav-link-color-text-active-primary;
+	}
+
+}

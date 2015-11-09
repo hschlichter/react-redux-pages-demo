@@ -1,0 +1,15 @@
+// =============================================================================
+// SETTINGS.RESPONSIVE
+// =============================================================================
+
+// Breakpoints
+
+$bc-s-responsive-breakpoints: (
+		t: "screen and (min-width: 30em)",
+		s: "screen and (min-width: 48em)",
+		m: "screen and (min-width: 64em)",
+		l: "screen and (min-width: 80em)",
+		h: "screen and (min-width: 90em)",
+		g: "screen and (min-width: 120em)",
+		sl: "screen and (max-device-width: 48em) and (orientation: landscape)"
+);

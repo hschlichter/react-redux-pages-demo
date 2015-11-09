@@ -1,0 +1,34 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-o-table-enable--tiny: 				true;
+$bc-o-table-enable--small: 				true;
+$bc-o-table-enable--large: 				true;
+$bc-o-table-enable--huge: 				true;
+$bc-o-table-enable--cells-border: 		true;
+$bc-o-table-enable--rows-border: 		true;
+$bc-o-table-enable--columns-striped: 	true;
+$bc-o-table-enable--rows-striped: 		true;
+
+// Spacing
+
+$bc-o-tables-spacing-unit: 				$bc-s-spacing-spacing-unit;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-objects-tables/index";

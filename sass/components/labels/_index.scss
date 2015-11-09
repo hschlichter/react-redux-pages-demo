@@ -1,0 +1,30 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-c-labels-enable-alert: 		true;
+$bc-c-labels-enable-success: 	true;
+$bc-c-labels-enable-warning: 	true;
+$bc-c-labels-enable-badge: 		true;
+
+// Spacing
+
+$bc-c-labels-spacing-unit: 		$bc-s-spacing-spacing-unit;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-components-labels/index";

@@ -1,0 +1,33 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-c-button-groups-enable-tiny: 		true;
+$bc-c-button-groups-enable-small: 		true;
+$bc-c-button-groups-enable-large: 		true;
+$bc-c-button-groups-enable-huge: 		true;
+$bc-c-button-groups-enable-justified: 	true;
+$bc-c-button-groups-enable-square: 		true;
+$bc-c-button-groups-enable-bordered: 	true;
+
+// Spacing
+
+$bc-c-button-groups-spacing-unit: 		$bc-s-spacing-spacing-unit;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-components-button-groups/index";

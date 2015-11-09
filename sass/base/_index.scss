@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// INDEX
+// -----------------------------------------------------------------------------
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+$bc-b-spacing-unit: 			$bc-s-spacing-spacing-unit;
+$bc-b-font-size:				$bc-s-type-base-font-size;
+$bc-b-line-height:				$bc-s-type-base-line-height;
+$bc-b-headings:					$bc-s-type-headings;
+$bc-b-z-index-layers: 			$bc-s-z-index-layers;
+$bc-b-responsive-breakpoints: 	$bc-s-responsive-breakpoints;
+$bc-b-links-color-text: 		$bc-s-colors-palette-7-ui;
+$bc-b-page-font-family: 		$bc-s-type-base-font-family;
+$bc-b-page-color-background: 	$bc-s-colors-palette-5-ui;
+$bc-b-page-color-text: 			$bc-s-colors-palette-3-ui;
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-base/index";

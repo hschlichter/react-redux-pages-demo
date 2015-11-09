@@ -1,0 +1,28 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// PREDEFINED VARIABLES
+// =============================================================================
+
+// Enable Features
+
+$bc-u-dimensions-enable-width: 				true;
+$bc-u-dimensions-enable-width-responsive: 	true;
+
+// Columns
+
+$bc-u-dimensions-width-columns: 			$bc-s-layout-columns;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-utilities-dimensions/index";

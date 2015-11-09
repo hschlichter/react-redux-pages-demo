@@ -1,0 +1,141 @@
+// =============================================================================
+// BUTTONS
+// =============================================================================
+
+
+
+
+
+// VARIABLES
+// =============================================================================
+
+// Primary
+
+$bc-c-buttons-color-background-primary: 				$bc-s-colors-palette-1-primary;
+$bc-c-buttons-color-background-focus-primary: 			$bc-s-colors-palette-2-primary;
+$bc-c-buttons-color-border-primary:						$bc-s-colors-palette-1-primary;
+$bc-c-buttons-color-border-focus-primary: 				$bc-s-colors-palette-2-primary;
+$bc-c-buttons-color-text-primary: 						$bc-s-colors-palette-4-primary;
+$bc-c-buttons-color-text-focus-primary: 				$bc-s-colors-palette-4-primary;
+
+// Secondary
+
+$bc-c-buttons-color-background-secondary: 				$bc-s-colors-palette-1-secondary;
+$bc-c-buttons-color-background-focus-secondary: 		$bc-s-colors-palette-2-secondary;
+$bc-c-buttons-color-border-secondary: 					$bc-s-colors-palette-1-secondary;
+$bc-c-buttons-color-border-focus-secondary: 			$bc-s-colors-palette-2-secondary;
+$bc-c-buttons-color-text-secondary: 					$bc-s-colors-palette-4-secondary;
+$bc-c-buttons-color-text-focus-secondary: 				$bc-s-colors-palette-4-secondary;
+
+// Hollow
+
+$bc-c-buttons-color-background-hollow: 					transparent;
+$bc-c-buttons-color-background-focus-hollow: 			$bc-s-colors-palette-1-ui;
+$bc-c-buttons-color-border-hollow: 						$bc-s-colors-palette-2-ui;
+$bc-c-buttons-color-border-focus-hollow: 				$bc-s-colors-palette-2-ui;
+$bc-c-buttons-color-text-hollow: 						$bc-s-colors-palette-3-ui;
+$bc-c-buttons-color-text-focus-hollow: 					$bc-s-colors-palette-3-ui;
+
+// Hollow Primary
+
+$bc-c-buttons-color-background-hollow-primary: 			transparent;
+$bc-c-buttons-color-background-focus-hollow-primary: 	$bc-s-colors-palette-1-primary;
+$bc-c-buttons-color-border-hollow-primary: 				$bc-s-colors-palette-1-primary;
+$bc-c-buttons-color-border-focus-hollow-primary: 		$bc-s-colors-palette-1-primary;
+$bc-c-buttons-color-text-hollow-primary: 				$bc-s-colors-palette-1-primary;
+$bc-c-buttons-color-text-focus-hollow-primary: 			$bc-s-colors-palette-4-primary;
+
+
+
+
+
+// MODIFIERS
+// =============================================================================
+
+/**
+ * Primary
+ *
+ * Solid button with primary color.
+ */
+
+.c-button--primary {
+	background-color: $bc-c-buttons-color-background-primary;
+	border-color: $bc-c-buttons-color-border-primary;
+	color: $bc-c-buttons-color-text-primary;
+
+	&:hover,
+	&:active,
+	&:focus,
+	&.is-active {
+		background-color: $bc-c-buttons-color-background-focus-primary;
+		border-color: $bc-c-buttons-color-border-focus-primary;
+		color: $bc-c-buttons-color-text-focus-primary;
+	}
+
+}
+
+/**
+ * Secondary
+ *
+ * Solid button with secondary color.
+ */
+
+.c-button--secondary {
+	background-color: $bc-c-buttons-color-background-secondary;
+	border-color: $bc-c-buttons-color-border-secondary;
+	color: $bc-c-buttons-color-text-secondary;
+
+	&:hover,
+	&:active,
+	&:focus,
+	&.is-active {
+		background-color: $bc-c-buttons-color-background-focus-secondary;
+		border-color: $bc-c-buttons-color-border-focus-secondary;
+		color: $bc-c-buttons-color-text-focus-secondary;
+	}
+
+}
+
+/**
+ * Hollow
+ *
+ * Hollow button with ui color.
+ */
+
+.c-button--hollow {
+	background-color: $bc-c-buttons-color-background-hollow;
+	border-color: $bc-c-buttons-color-border-hollow;
+	color: $bc-c-buttons-color-text-hollow;
+
+	&:hover,
+	&:active,
+	&:focus,
+	&.is-active {
+		background-color: $bc-c-buttons-color-background-focus-hollow;
+		border-color: $bc-c-buttons-color-border-focus-hollow;
+		color: $bc-c-buttons-color-text-focus-hollow;
+	}
+
+}
+
+/**
+ * Hollow Primary
+ *
+ * Hollow button with primary color.
+ */
+
+.c-button--hollow-primary {
+	background-color: $bc-c-buttons-color-background-hollow-primary;
+	border-color: $bc-c-buttons-color-border-hollow-primary;
+	color: $bc-c-buttons-color-text-hollow-primary;
+
+	&:hover,
+	&:active,
+	&:focus,
+	&.is-active {
+		background-color: $bc-c-buttons-color-background-focus-hollow-primary;
+		border-color: $bc-c-buttons-color-border-focus-hollow-primary;
+		color: $bc-c-buttons-color-text-focus-hollow-primary;
+	}
+
+}

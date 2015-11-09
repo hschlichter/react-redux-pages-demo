@@ -1,0 +1,47 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-c-buttons-enable-tiny: 		true;
+$bc-c-buttons-enable-small: 	true;
+$bc-c-buttons-enable-large: 	true;
+$bc-c-buttons-enable-huge: 		true;
+$bc-c-buttons-enable-full: 		true;
+
+// Spacing
+
+$bc-c-buttons-spacing-unit: 	$bc-s-spacing-spacing-unit;
+
+// Font Sizes
+
+$bc-c-buttons-font-size-tiny: 	$bc-s-type-font-size-decrease-1;
+$bc-c-buttons-font-size-small: 	$bc-s-type-base-font-size;
+$bc-c-buttons-font-size-large: 	$bc-s-type-font-size-increase-2;
+$bc-c-buttons-font-size-huge: 	$bc-s-type-font-size-increase-3;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-components-buttons/index";
+
+
+
+
+
+// LOCAL
+// =============================================================================
+
+@import "./lib/buttons";

@@ -1,0 +1,45 @@
+// =============================================================================
+// BOX
+// =============================================================================
+
+
+
+
+
+// VARIABLES
+// =============================================================================
+
+// Primary
+
+$bc-c-box-color-background-primary: 	$bc-s-colors-palette-1-primary;
+$bc-c-box-color-text-primary: 			$bc-s-colors-palette-3-primary;
+
+// Dark
+
+$bc-c-box-color-background-dark: 		$bc-s-colors-palette-1-dark;
+$bc-c-box-color-text-dark: 				$bc-s-colors-palette-3-dark;
+
+// UI
+
+$bc-c-box-color-background-ui: 			$bc-s-colors-base-1-ui;
+
+
+
+
+
+// MODIFIERS
+// =============================================================================
+
+.c-box--primary {
+	background-color: $bc-c-box-color-background-primary;
+	color: $bc-c-box-color-text-primary;
+}
+
+.c-box--dark {
+	background-color: $bc-c-box-color-background-dark;
+	color: $bc-c-box-color-text-dark;
+}
+
+.c-box--ui {
+	background-color: $bc-c-box-color-background-ui;
+}

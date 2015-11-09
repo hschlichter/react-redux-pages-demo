@@ -1,0 +1,36 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-c-tooltips-enable-right: 	true;
+$bc-c-tooltips-enable-left: 	true;
+$bc-c-tooltips-enable-top: 		true;
+$bc-c-tooltips-enable-bottom: 	true;
+$bc-c-tooltips-enable-flush: 	true;
+$bc-c-tooltips-enable-tiny: 	true;
+$bc-c-tooltips-enable-small: 	true;
+$bc-c-tooltips-enable-large: 	true;
+$bc-c-tooltips-enable-huge: 	true;
+$bc-c-tooltips-enable-wrap: 	true;
+
+// Spacing
+
+$bc-c-tooltips-spacing-unit: 	$bc-s-spacing-spacing-unit;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-components-tooltips/index";

@@ -1,0 +1,43 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-c-feedback-enable-dismissible: 			true;
+$bc-c-feedback-enable-alert: 				true;
+$bc-c-feedback-enable-success: 				true;
+$bc-c-feedback-enable-warning: 				true;
+$bc-c-feedback-enable-tiny: 				true;
+$bc-c-feedback-enable-small: 				true;
+$bc-c-feedback-enable-large: 				true;
+$bc-c-feedback-enable-huge: 				true;
+
+// Spacing
+
+$bc-c-messages-spacing-unit: 				$bc-s-spacing-spacing-unit;
+
+// Colors
+
+$bc-c-messages-color-background-success: 	$bc-s-colors-palette-1-success;
+$bc-c-messages-color-background-warning: 	$bc-s-colors-palette-1-warning;
+$bc-c-messages-color-background-alert: 		$bc-s-colors-palette-1-alert;
+$bc-c-messages-color-text-success: 			$bc-s-colors-palette-2-success;
+$bc-c-messages-color-text-warning: 			$bc-s-colors-palette-2-warning;
+$bc-c-messages-color-text-alert: 			$bc-s-colors-palette-2-alert;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-components-feedback/index";

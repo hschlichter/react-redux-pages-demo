@@ -1,0 +1,55 @@
+// =============================================================================
+// TYPE
+// =============================================================================
+
+
+
+
+
+// BASE VARIABLES
+// =============================================================================
+
+// Base Type
+
+$bc-s-type-base-font-family: 		'Helvetica Neue', Helvetica, Arial sans-serif;
+$bc-s-type-base-font-size: 			14px;
+$bc-s-type-base-line-height: 		18px;
+
+
+
+
+
+// SIZING VARIABLES
+// =============================================================================
+
+// Decrease font-size by <unit> from the base font-size
+// $bc-s-type-font-size-decrease-<one-unit>
+
+$bc-s-type-font-size-decrease-1: 	12px;
+$bc-s-type-font-size-decrease-2: 	10px;
+
+// Increase font-size by <unit> from the base font-size
+// $bc-s-type-font-size-increase-<one-unit>
+
+$bc-s-type-font-size-increase-1: 	16px;
+$bc-s-type-font-size-increase-2: 	18px;
+$bc-s-type-font-size-increase-3: 	20px;
+$bc-s-type-font-size-increase-4: 	24px;
+$bc-s-type-font-size-increase-5: 	28px;
+$bc-s-type-font-size-increase-6: 	32px;
+
+
+
+
+
+// HEADING VARIABLES
+// =============================================================================
+
+$bc-s-type-headings:  (
+		h1: $bc-s-type-font-size-increase-6,
+		h2: $bc-s-type-font-size-increase-5,
+		h3: $bc-s-type-font-size-increase-4,
+		h4: $bc-s-type-font-size-increase-3,
+		h5: $bc-s-type-font-size-increase-2,
+		h6: $bc-s-type-font-size-increase-1
+) !default;

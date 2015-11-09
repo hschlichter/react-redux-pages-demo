@@ -1,0 +1,58 @@
+// =============================================================================
+// OVERLAYS
+// =============================================================================
+
+
+
+
+
+// VARIABLES
+// =============================================================================
+
+// Primary
+
+$bc-c-overlays-background-color-primary:    rgba($bc-s-colors-palette-1-primary, .97) !default;
+
+// Light
+
+$bc-c-overlays-background-color-light:      rgba($bc-s-colors-palette-5-ui, .97) !default;
+
+
+
+
+
+// MODIFIERS
+// =============================================================================
+
+/**
+ * Layout Overlay
+ *
+ * Overlays can be nested inside layout items. This constrains their dimensions
+ * to the size of their parent layout item. These overlays should be nested
+ * directly inside the layout item. Additionally, the layout item must have the
+ * .has-overlay class.
+ */
+
+.c-overlay--layout {
+	position: absolute;
+}
+
+/**
+ * Light Overlay
+ *
+ * Overrides the default black color with a brand color.
+ */
+
+.c-overlay--light {
+	background-color: $bc-c-overlays-background-color-light;
+}
+
+/**
+ * Primary Overlay
+ *
+ * Overrides the default black color with a brand color.
+ */
+
+.c-overlay--primary {
+	background-color: $bc-c-overlays-background-color-primary;
+}

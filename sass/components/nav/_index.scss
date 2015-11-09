@@ -1,0 +1,43 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-c-nav-enable-horizontal: 	true;
+$bc-c-nav-enable-vertical: 		true;
+$bc-c-nav-enable-equal: 		true;
+$bc-c-nav-enable-flush: 		true;
+$bc-c-nav-enable-tiny: 			true;
+$bc-c-nav-enable-small: 		true;
+$bc-c-nav-enable-large: 		true;
+$bc-c-nav-enable-huge: 			true;
+
+// Spacing
+
+$bc-c-nav-spacing-unit: 		$bc-s-spacing-spacing-unit;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-components-nav/index";
+
+
+
+
+
+// LOCAL
+// =============================================================================
+
+@import "./lib/nav";

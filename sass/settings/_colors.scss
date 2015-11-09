@@ -1,0 +1,119 @@
+// =============================================================================
+// COLORS
+// =============================================================================
+
+
+
+
+
+// REUSABLE VARIABLES
+// =============================================================================
+
+// Brand
+
+$bc-s-colors-base-1-brand: 			#0099ff;
+$bc-s-colors-base-2-brand: 			#46ba45;
+$bc-s-colors-base-3-brand: 			#ea6060;
+
+// UI
+//
+// 1. Background
+// 2. Border
+// 3. Text
+// 4. Link
+// 5. Background for elements already nested inside a ui-themed element.
+//    Prevents them from being confused with the background of their parent.
+
+$bc-s-colors-base-1-ui: 			#eee; // [1]
+$bc-s-colors-base-2-ui: 			#ccc; // [2]
+$bc-s-colors-base-3-ui: 			#333; // [3]
+$bc-s-colors-base-4-ui: 			$bc-s-colors-base-1-brand; // [4]
+$bc-s-colors-base-6-ui: 			#ddd; // [5]
+$bc-s-colors-base-7-ui: 			#000; // [5]
+
+// Feedback
+//
+// 1. Success
+// 2. Warning
+// 3. Alert
+
+$bc-s-colors-base-1-feedback: 		#8ac867; // [1]
+$bc-s-colors-base-2-feedback: 		#ff9900; // [2]
+$bc-s-colors-base-3-feedback: 		#e94c60; // [3]
+
+
+
+
+
+// PALETTE VARIABLES
+// =============================================================================
+
+// UI
+
+$bc-s-colors-palette-1-ui: 			$bc-s-colors-base-1-ui;
+$bc-s-colors-palette-2-ui: 			$bc-s-colors-base-2-ui;
+$bc-s-colors-palette-3-ui: 			$bc-s-colors-base-3-ui;
+$bc-s-colors-palette-4-ui: 			$bc-s-colors-base-4-ui;
+$bc-s-colors-palette-5-ui: 			#fff;
+$bc-s-colors-palette-6-ui: 			$bc-s-colors-base-6-ui;
+$bc-s-colors-palette-7-ui: 			$bc-s-colors-base-7-ui;
+
+// Primary (Brand)
+//
+// 1. Generally used for background
+// 2. Generally used for background active
+// 3. Generally used for text
+// 4. Generally used for text active
+
+$bc-s-colors-palette-1-primary: 	$bc-s-colors-base-1-brand; // [1]
+$bc-s-colors-palette-2-primary: 	darken($bc-s-colors-base-1-brand, 5%);// [2]
+$bc-s-colors-palette-3-primary: 	lighten($bc-s-colors-base-1-brand, 90%); // [3]
+$bc-s-colors-palette-4-primary: 	#fff; // [4]
+
+// Secondary (Brand)
+//
+// 1. Generally used for background
+// 2. Generally used for background active
+// 3. Generally used for text
+// 4. Generally used for text active
+
+$bc-s-colors-palette-1-secondary: 	$bc-s-colors-base-2-brand; // [1]
+$bc-s-colors-palette-2-secondary: 	darken($bc-s-colors-base-2-brand, 5%); // [2]
+$bc-s-colors-palette-3-secondary: 	lighten($bc-s-colors-base-2-brand, 90%); // [3]
+$bc-s-colors-palette-4-secondary: 	#fff; // [4]
+
+// Dark
+//
+// 1. Generally used for background
+// 2. Generally used for background active
+// 3. Generally used for text
+// 4. Generally used for text active
+
+$bc-s-colors-palette-1-dark: 		#444; // [1]
+$bc-s-colors-palette-2-dark: 		#555; // [2]
+$bc-s-colors-palette-3-dark: 		#ddd; // [3]
+$bc-s-colors-palette-4-dark: 		#fff; // [4]
+
+// Success
+//
+// 1. Generally used for background
+// 2. Generally used for text
+
+$bc-s-colors-palette-1-success: 	#8ac867; // [1]
+$bc-s-colors-palette-2-success: 	#fff; // [2]
+
+// Warning
+//
+// 1. Generally used for background
+// 2. Generally used for text
+
+$bc-s-colors-palette-1-warning: 	#ff9900; // [1]
+$bc-s-colors-palette-2-warning: 	#fff; // [2]
+
+// Alert
+//
+// 1. Generally used for background
+// 2. Generally used for text
+
+$bc-s-colors-palette-1-alert: 		#e94c60; // [1]
+$bc-s-colors-palette-2-alert: 		#fff; // [2]

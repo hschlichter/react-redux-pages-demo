@@ -1,0 +1,43 @@
+// =============================================================================
+// ICONS
+// =============================================================================
+
+
+
+
+
+// VARIABLES
+// =============================================================================
+
+
+
+
+
+// MODIFIERS
+// =============================================================================
+
+/**
+ * Stroke Thickness Modifiers
+ *
+ * iOS-style icons require thicker strokes, especially at smaller sizes.
+ * TODO: Discuss if we want some pre-established standard icon sizes and have a pre-established stroke width for each size.
+ *
+ * 1. The stroke property appears to be necessary for the stroke-width to take
+ *    effect.
+ * 2. Establish a default thickness.
+ * 3. Rounds the corners where lines meet. Seems to suit the icon style we have.
+ */
+
+.c-icon {
+	stroke: currentColor; /* [1] */
+	stroke-width: 2; /* [2] */
+	stroke-linecap: round; /* [3] */
+}
+
+.c-icon--thick {
+	stroke-width: 3;
+}
+
+.c-icon--thin {
+	stroke-width: 1;
+}

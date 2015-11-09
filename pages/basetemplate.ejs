@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<link rel='stylesheet' href='/css/bundle.css' />
+		<script type="text/javascript">
+			var context = <%- context %>;
+		</script>
+		<script src="/js/vendor.bundle.js"></script>
+		<script src="<%- bundle %>"></script>
+	</head>
+
+	<body>
+		<main>
+			<div id="main"><%- main %></div>
+		</main>
+
+		<footer>
+			<div id="footer"><%- footer %></div>
+		</footer>
+	</body>
+</html>
+

@@ -1,0 +1,30 @@
+// =============================================================================
+// INDEX
+// =============================================================================
+
+
+
+
+
+// VARIABLE OVERRIDES
+// =============================================================================
+
+// Enable Features
+
+$bc-c-list-enable-bullets: 	true;
+$bc-c-list-enable-small: 	true;
+$bc-c-list-enable-large: 	true;
+$bc-c-list-enable-huge: 	true;
+
+// Spacing
+
+$bc-c-list-spacing-unit: 	$bc-s-spacing-spacing-unit / 4;
+
+
+
+
+
+// BASE
+// =============================================================================
+
+@import "bettercss-components-lists/index";
